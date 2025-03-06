@@ -1,0 +1,33 @@
+body {
+    font-family: sans-serif;
+}
+
+.categoria {
+    display: flex ;
+    justify-content: center;
+    gap: 50px;
+    margin: 20px;
+}
+.item img{
+    width: 220px;
+    height: 180px;
+    border-radius: 15px;
+}
+
+.item{
+   display: flex; 
+   flex-direction: column;
+   font-size:17px;
+   font-weight: 700;
+   border-radius: 15px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
+   align-items: center;
+   gap: 15px;
+}
+
+.item:hover {
+  box-shadow: 4px 4px 9px 5px rgba(0, 0, 0, 0.15);
+  transform: translateY(-3px);
+
+}
