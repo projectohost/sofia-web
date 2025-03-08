@@ -61,3 +61,7 @@ details p {
     color: black;
     font-weight: 600;
 }
+
+details .card-text{
+    width: 250px;
+}
